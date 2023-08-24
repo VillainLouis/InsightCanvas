@@ -40,6 +40,8 @@ Detach Session：Prefix + d (detach)
 
 查看所有的窗口：Prefix + w
 
+重命名窗口：Prefix + : -> 输入 `rename-window <new-window-name>`
+
 ### Pane
 
 创建左右分割的Pane：Prefix + %
