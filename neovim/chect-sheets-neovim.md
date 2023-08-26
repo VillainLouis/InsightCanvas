@@ -1,3 +1,10 @@
+# 安装
+```shell
+snap install nvim --classic
+```
+
+
+
 一下配置都是基于Lazy.vim
 
 # neovim基本配置
