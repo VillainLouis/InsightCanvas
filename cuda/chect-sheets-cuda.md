@@ -81,6 +81,15 @@ int main() {
         }
     }
     cout << "Good" << endl;
+
+    // 释放 GPU 和主机内存
+    cudaFree(d_a);
+    cudaFree(d_b);
+    cudaFree(d_c);
+    free(h_a);
+    free(h_b);
+    free(h_c);
+
     return 0;
 }
 
