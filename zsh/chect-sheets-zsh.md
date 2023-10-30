@@ -14,6 +14,8 @@ sudo apt install tmux cowsay
 plugins=(vi-mode themes cp z tmux rand-quote command-not-found colored-man-pages history-substring-search git sudo zsh-syntax-highlighting zsh-autosuggestions)
 
 quote | cowsay
+bindkey '^P' history-search-backward
+bindkey '^N' history-search-forward
 ```
 刷新zsh配置文件
 ```shell
