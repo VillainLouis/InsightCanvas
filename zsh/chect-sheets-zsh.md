@@ -4,6 +4,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 vim ~/.zshrc
 
@@ -21,6 +22,8 @@ bindkey '^N' history-search-forward
 ```shell
 source ~/.zshrc
 ```
+更换主题
+```ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc```
 
 # 使用
 ## [vi-mode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode)
