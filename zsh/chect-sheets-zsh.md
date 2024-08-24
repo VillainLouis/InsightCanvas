@@ -23,7 +23,7 @@ bindkey '^N' history-search-forward
 source ~/.zshrc
 ```
 更换主题
-```ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc```
+```ZSH_THEME="powerlevel10k/powerlevel10k"```
 
 # 使用
 ## [vi-mode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode)
